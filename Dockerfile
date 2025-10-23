@@ -5,4 +5,4 @@ RUN apk add --no-cache \
   traceroute socat conntrack-tools \
   tcpdump mtr nmap-ncat
 
-ENTRYPOINT ["/bin/sh"]
+CMD ["sh"]
